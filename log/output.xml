@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on linux)" generated="20200720 19:49:43.028" rpa="false">
+<suite id="s1" name="Testecase" source="/home/larissa/Documentos/TestSeleniumRobot/Testecase">
+<suite id="s1-s1" name="Tests" source="/home/larissa/Documentos/TestSeleniumRobot/Testecase/tests">
+<suite id="s1-s1-s1" name="Teste" source="/home/larissa/Documentos/TestSeleniumRobot/Testecase/tests/Teste.robot">
+<test id="s1-s1-s1-t1" name="Validar Cadastro de Usuário: Email Válido">
+<kw name="Acessar Página Principal">
+<msg timestamp="20200720 19:49:43.124" level="FAIL">No keyword with name 'Acessar Página Principal' found.</msg>
+<status status="FAIL" starttime="20200720 19:49:43.124" endtime="20200720 19:49:43.124"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20200720 19:49:43.127" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200720 19:49:43.126" endtime="20200720 19:49:43.127">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200720 19:49:43.121" endtime="20200720 19:49:43.127" critical="yes">No keyword with name 'Acessar Página Principal' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20200720 19:49:43.118" endtime="20200720 19:49:43.128"></status>
+</suite>
+<status status="FAIL" starttime="20200720 19:49:43.114" endtime="20200720 19:49:43.131"></status>
+</suite>
+<status status="FAIL" starttime="20200720 19:49:43.030" endtime="20200720 19:49:43.133"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Testecase">Testecase</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Tests">Testecase.Tests</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="Teste">Testecase.Tests.Teste</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200720 19:49:43.120" level="ERROR">Error in file '/home/larissa/Documentos/TestSeleniumRobot/Testecase/tests/Teste.robot' on line 2: Resource file 'ResourceTest.robot' does not exist.</msg>
+</errors>
+</robot>
