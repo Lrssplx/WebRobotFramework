@@ -7,7 +7,7 @@ ${NAVEGADOR}                    chrome
 ${TITULO_PAGINA}                Campo de Treinamento
 ${NOME}                         Larissa
 ${SOBRENOME}                    Pereira
-${TELEFONE}                     98410741
+${TELEFONE}                     99999
  
 
 ${CAMPO_NOME}                   id:formNome
